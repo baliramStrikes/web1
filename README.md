@@ -1,5 +1,10 @@
 # web1
 # html css hover effect
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +14,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
     <title>Document</title>
+    
+    
+    
+    
     <style>
         * {
             margin: 0%;
@@ -123,8 +132,11 @@
             object-fit: cover;
         }
     </style>
+    
+    
+    
+    
 </head>
-
 <body>
     <div class="mainbox">
         <div class="box">
@@ -135,10 +147,16 @@
         </div>
         <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsa aliquid eveniet illum necessitatibus quae animi, libero cupiditate nesciunt consequuntur? Atque, quia voluptatem? Fugit impedit quae officia perspiciatis reiciendis ab.</p>
     </div>
+    
+    
+    
+    
+    
+    
     <script>
         var x = document.getElementById('squre');
         var y = document.getElementById('para');
-
+        
         window.onclick = function() {
             if (x.style.background == 'white') {
                 x.style.background = 'none';
@@ -153,6 +171,10 @@
             }
         }
     </script>
+    
+    
+    
+    
 </body>
 
 </html>
